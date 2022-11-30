@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@layer components {
+    .box {
+        @apply col-span-1 bg-slate-400 cursor-pointer drop-shadow-2xl rounded-md hover:opacity-90 hover:scale-[1.1] z-20 p-2;
+    }
+    .operators {
+        @apply bg-slate-300 p-2 flex justify-center items-center rounded-md cursor-pointer;
+    }
+    html {
+        /* font-family: ProspectModernW00-Reg, sans-serif; */
+        font-family: Montserrat, sans-serif;
+    }
+}
